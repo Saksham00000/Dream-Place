@@ -1,0 +1,406 @@
+body {
+    margin: 0;
+}
+
+/*Home Page*/
+.homebg {
+    background-image: url('homebg.jpg');
+    filter: blur(2px);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+
+}
+
+.home-box {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.home-box h1 {
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+    text-align: center;
+    font-size: 75px;
+    padding-bottom: 50px;
+}
+
+.home-box p {
+    font-family: 'Rubik', sans-serif;
+    color: #c5bf13;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+/* Package Page */
+.bg-blur {
+    background-image: url('package.jpg');
+    filter: blur(3px);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+
+}
+
+.package {
+    position: relative;
+    z-index: 16;
+}
+
+.NT {
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.package-box {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 15px;
+    height: 360px;
+    width: 320px;
+    margin: 25px;
+    background: rgb(41, 39, 39);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.package-box h4 {
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+    font-size: 30px;
+}
+
+.flex-container .package-box ul {
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.flex-container .package-box ul li {
+    padding-top: 15px;
+}
+
+.flex-container .package-box ul li a {
+    padding-top: 5px;
+    text-decoration: none;
+    color: gold;
+}
+
+.flex-container .package-box ul li a:hover {
+    color: #c5c4ad;
+}
+
+
+/* Login page */
+.bg {
+    background-image: url('login.jpg');
+    filter: blur(3px);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+
+}
+
+.box {
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 650px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: rgb(41, 39, 39);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.box h2 {
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 125px;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+
+.box input {
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 10px 80px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: rgb(46, 41, 41);
+    color: gold;
+}
+
+.box input:hover {
+    border-color: gold;
+}
+
+.box a {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    margin-right: 200px;
+    margin-left: 230px;
+    color: gold;
+    position: relative;
+}
+
+.box a:hover {
+    color: #c5bf13;
+}
+
+
+
+/* Password Bottom Margin */
+.pass {
+    margin-bottom: 50px;
+}
+
+
+/* Sign Up Page */
+.bg2 {
+    background-image: url('signup.jpg');
+    filter: blur(3px);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    ;
+
+}
+
+.box-sign {
+    margin-top: 50px;
+    margin-right: 420px;
+    margin-left: 420px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: rgb(41, 39, 39);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.box-sign h2 {
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 125px;
+    margin-bottom: 80px;
+    font-size: 30px;
+
+}
+
+.box-sign input {
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 10px 80px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: rgb(46, 41, 41);
+    color: gold;
+}
+
+.box-sign input:hover {
+    border-color: gold;
+}
+
+
+/* Contact Page */
+.contactbg {
+    background-image: url('contact.jpg');
+    filter: blur(3px);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+
+}
+
+.contact-box {
+    margin-top: 50px;
+    margin-right: 480px;
+    margin-left: 350px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: rgb(41, 39, 39);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.contact-box h2 {
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact-box .CU {
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 10px 80px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: rgb(46, 41, 41);
+    color: gold;
+}
+
+.contact-box .CU:hover {
+    border-color: gold;
+}
+
+.contact-box textarea {
+    resize: none;
+    width: 190px;
+    height: 120px;
+}
+
+
+
+
+
+/* Buttton */
+.btn {
+    cursor: pointer;
+    display: block;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    padding: 8px 158px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid gold;
+    background-color: gold;
+    color: rgb(46, 41, 41);
+}
+
+.btn:hover {
+    background-color: rgb(46, 41, 41);
+    color: gold;
+}
+
+.btn1 {
+    cursor: pointer;
+    padding: 8px 125px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid gold;
+    background-color: gold;
+    color: rgb(46, 41, 41);
+}
+
+.btn1:hover {
+    background-color: rgb(46, 41, 41);
+    color: gold;
+}
+
+
+/* Header Portion */
+.container {
+    display: inline-block;
+}
+
+.container img {
+    width: 85px;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+.container h3 {
+    font-size: 22px;
+    color: gold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+
+/* NavBar */
+.navbar {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    margin: auto;
+    top: -25px;
+    left: 650px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar ul li :hover {
+    color: #cfceae;
+
+}
+
+.navbar ul li {
+    padding-left: 50px;
+    display: inline-block;
+}
+
+
+/* Placeholder Color */
+
+::placeholder {
+    color: rgb(172, 157, 43);
+}
